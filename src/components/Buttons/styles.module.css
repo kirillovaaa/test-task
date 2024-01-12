@@ -1,0 +1,27 @@
+.promoScrollButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-top: 40px;
+}
+
+.promoScrollButton {
+  background: transparent;
+  border: none;
+  width: 173px;
+  height: 23px;
+}
+
+.buttonLeft {
+  background-image: url("../../images/left.svg");
+}
+
+.buttonRight {
+  background-image: url("../../images/right.svg");
+}
+
+.promoScrollButton:hover {
+  cursor: pointer;
+  color: #7884a5;
+}

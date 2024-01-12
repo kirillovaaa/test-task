@@ -1,0 +1,59 @@
+.promoItems {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  overflow: scroll;
+}
+
+.promoItems::-webkit-scrollbar {
+  width: 0;
+}
+
+.promoItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.promoItemTitle {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #525c7a;
+  letter-spacing: -0.056px;
+  margin-top: 32px;
+}
+
+.promoItemTitle:hover {
+  color: #4fba67;
+}
+
+.promoItemDate {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #a2acc7;
+  margin-top: 16px;
+}
+
+.promoItemImage {
+  aspect-ratio: 1;
+  object-fit: cover;
+  height: 344px;
+}
+
+.promoItem[data-types="types__1"] > .promoItemImage {
+  border-radius: 0 229px;
+}
+.promoItem[data-types="types__2"] > .promoItemImage {
+  border-radius: 220px 0;
+}
+.promoItem[data-types="types__3"] > .promoItemImage {
+  border-radius: 50%;
+}
+.promoItem[data-types="types__4"] > .promoItemImage {
+  border-radius: 172px;
+}
+.promoItem[data-types="types__5"] > .promoItemImage {
+  border-radius: 120px 0;
+}
