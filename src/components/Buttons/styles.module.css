@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 32px;
-  margin-top: 40px;
+  margin: 40px 40px 0;
 }
 
 .promoScrollButton {
@@ -14,14 +13,28 @@
 }
 
 .buttonLeft {
-  background-image: url("../../images/left.svg");
+  background-image: url("/leftbig.svg");
+}
+
+.buttonLeft:hover {
+  background-image: url("/leftbighover.svg");
 }
 
 .buttonRight {
-  background-image: url("../../images/right.svg");
+  background-image: url("/rightbig.svg");
+  background-position: center right;
+}
+
+.buttonRight:hover {
+  background-image: url("/rightbighover.svg");
 }
 
 .promoScrollButton:hover {
   cursor: pointer;
-  color: #7884a5;
+}
+
+@media all and (max-width: 460px) {
+  .promoScrollButton {
+    width: 28px;
+  }
 }

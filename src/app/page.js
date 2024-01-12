@@ -8,7 +8,7 @@ const data = [
     types: "types__1",
     img: "https://celes.club/uploads/posts/2021-12/1640090749_5-celes-club-p-zhivotnie-v-derevne-zhivotnie-krasivo-foto-6.jpg",
     title: "Как повысить удои коров",
-    date: "12 февраля 204",
+    date: "12 февраля 2024",
   },
   {
     id: 2,
@@ -47,9 +47,8 @@ export default function Home() {
     <main className={styles.promo}>
       <h1 className={styles.promoHeading}>Полезные материалы</h1>
       <p className={styles.promoText}>
-        Собрали для вас полезные исследования схемы кормления и другие <br />
-        материалы, которые пригодятся для лучших результатов на вашем <br />
-        хозяйстве
+        Собрали для вас полезные исследования схемы кормления и другие
+        материалы, которые пригодятся для лучших результатов на вашем хозяйстве
       </p>
 
       <Items data={data} />
